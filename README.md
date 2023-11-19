@@ -11,3 +11,11 @@ New date/time API: packages
 | java.time.format    | Formatting classes                                          |
 | java.time.temporal  | Date and time access using fields, units, and adjusters     |
 | java.time.zone      | Support for time zones and their rules                      |
+
+New date/time API: basics
+
+| Class               | 	Description                                                 |
+|---------------------|:---------------------------------------------------------------:|
+| Clock               | Replaceable factory for getting current time                    |
+| Instant             | A point in time since January 1, 1970, expressed in nanoseconds |
+| Duration            | A length of time, also expressed in nanoseconds                 |
